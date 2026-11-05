@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b111d">
+  <meta name="description" content="Davide Passariello — Digital Humanities, Python, cybersecurity, machine learning, and interactive digital experiences. Explore selected academic projects.">
+  <meta property="og:title" content="Davide Passariello | Digital Humanities & Technology">
+  <meta property="og:description" content="Selected projects in Python, cybersecurity, web development, machine learning and interactive experiences.">
+  <meta property="og:type" content="website">
+  <title>Davide Passariello — Digital Humanities & Technology</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="wordmark" href="#top" aria-label="Davide Passariello, back to top"><span class="mark">DP<span class="mark-dot">.</span></span><span class="wordmark-caption">portfolio</span></a>
+      <nav class="nav" aria-label="Primary navigation"><a href="#about">About</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#contact">Contact</a></nav>
+      <a class="header-github" href="https://github.com/davidepassariello" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero wrap" id="top" aria-labelledby="hero-heading">
+      <div class="hero-content">
+        <div class="eyebrow"><span class="status-dot" aria-hidden="true"></span> PORTFOLIO · NAPLES, ITALY</div>
+        <p class="hero-intro">Hello, I'm Davide.</p>
+        <h1 id="hero-heading">Where <span>humanities</span><br>meet technology<span class="period">.</span></h1>
+        <p class="hero-description">I'm a Digital Humanities master's student working at the intersection of software development, cybersecurity, data analysis, and interactive digital experiences.</p>
+        <div class="hero-actions"><a class="button primary" href="#projects">Explore my projects <span aria-hidden="true">↗</span></a><a class="button secondary" href="https://github.com/davidepassariello" target="_blank" rel="noopener noreferrer">View GitHub profile</a></div>
+        <div class="quick-facts"><span>Python &amp; Data</span><span class="sep" aria-hidden="true"></span><span>Cybersecurity</span><span class="sep" aria-hidden="true"></span><span>Interactive Web &amp; 3D</span></div>
+      </div>
+      <div class="hero-art" aria-hidden="true"><div class="halo halo-a"></div><div class="halo halo-b"></div><div class="orbit orbit-a"></div><div class="orbit orbit-b"></div><div class="art-center"><span>&lt;/&gt;</span><small>humanistic thinking<br>technical practice</small></div><span class="art-label art-label-a">01 / RESEARCH</span><span class="art-label art-label-b">02 / BUILD</span><span class="art-label art-label-c">03 / EXPLORE</span></div>
+    </section>
+
+    <section class="about-panel" id="about"><div class="wrap about-grid"><div class="section-kicker">01 / ABOUT</div><div><h2>Curiosity across disciplines.</h2><p>My academic background combines linguistic and cultural studies with a growing focus on digital tools. I develop small, practical projects to understand how technology can help us analyse information, design experiences and communicate knowledge.</p><p>I'm currently pursuing an MSc in Digital Humanities at the University of Naples L'Orientale and Parthenope. The projects below document my learning process and hands-on academic work.</p></div></div></section>
+
+    <section class="projects-section wrap" id="projects" aria-labelledby="projects-title">
+      <div class="section-kicker">02 / SELECTED WORK</div>
+      <div class="section-heading"><div><h2 id="projects-title">Projects<span class="period">.</span></h2><p>Five selected projects, from machine learning to interactive storytelling.</p></div><span class="project-count">05 PROJECTS</span></div>
+      <div class="filters" role="group" aria-label="Filter projects">
+        <button class="filter active" type="button" data-filter="all" aria-pressed="true">All projects</button>
+        <button class="filter" type="button" data-filter="data" aria-pressed="false">Data &amp; AI</button>
+        <button class="filter" type="button" data-filter="web" aria-pressed="false">Web</button>
+        <button class="filter" type="button" data-filter="security" aria-pressed="false">Security</button>
+        <button class="filter" type="button" data-filter="interactive" aria-pressed="false">Interactive</button>
+      </div>
+      <div class="project-grid">
+        <article class="project-card" data-categories="data" id="cilento">
+          <div class="project-visual visual-cilento"><img src="assets/cilento-roc.png" alt="ROC curves comparing Random Forest and SVM models" loading="lazy"><span class="visual-index">01 / DATA &amp; ML</span></div>
+          <div class="project-body"><div class="project-meta"><span>ACADEMIC PROJECT</span><span>PYTHON + GIS</span></div><h3>Cilento Paleocliffs</h3><p>Machine learning classification of coastal palaeocliffs using geospatial features, Random Forest and Support Vector Machines. I developed the Python analysis pipeline.</p><div class="tags"><span>Python</span><span>Scikit-learn</span><span>QGIS</span></div><div class="card-links"><a href="https://github.com/davidepassariello/cilento-paleocliffs-ml" target="_blank" rel="noopener noreferrer">View repository <span aria-hidden="true">↗</span></a></div></div>
+        </article>
+        <article class="project-card" data-categories="web" id="dhorizons">
+          <div class="project-visual visual-dhorizons"><div class="mock-browser" aria-label="Stylized illustration of a content portal"><div class="mock-bar"><i></i><i></i><i></i><span>DHORIZONS / PORTAL</span></div><div class="mock-app"><div class="mock-sidebar"><span></span><span></span><span></span><span></span></div><div class="mock-main"><b>Digital Humanities</b><div class="mock-feature"></div><div class="mock-rows"><span></span><span></span><span></span></div></div></div></div><span class="visual-index">02 / WEB APPLICATION</span></div>
+          <div class="project-body"><div class="project-meta"><span>ACADEMIC PROTOTYPE</span><span>BACKEND + FRONTEND</span></div><h3>DHorizons</h3><p>A student-oriented content portal with news, events, video lessons, search and an administrative interface. Built with Flask and SQLite.</p><div class="tags"><span>Flask</span><span>SQLite</span><span>HTML / CSS / JS</span></div><div class="card-links"><a href="https://github.com/davidepassariello/dhorizons-flask-webapp" target="_blank" rel="noopener noreferrer">View repository <span aria-hidden="true">↗</span></a></div></div>
+        </article>
+        <article class="project-card" data-categories="security" id="mfa">
+          <div class="project-visual visual-security"><div class="security-window"><div class="security-top"><span class="terminal-dot"></span><span>auth_demo.py</span><span class="terminal-lines">— □ ×</span></div><div class="security-lines"><span class="muted">$ python main.py</span><span><em>&gt;</em> Password verified</span><span><em>&gt;</em> Enter your TOTP code</span><span class="success-line">✓ Second factor verified</span><span class="cursor-line">▌</span></div></div><span class="visual-index">03 / CYBERSECURITY</span></div>
+          <div class="project-body"><div class="project-meta"><span>EDUCATIONAL DEMO</span><span>AUTHENTICATION</span></div><h3>Python &amp; MySQL 2FA</h3><p>A command-line demonstration of two-factor authentication using password verification, a MySQL database, and time-based one-time passwords.</p><div class="tags"><span>Python</span><span>MySQL</span><span>TOTP</span></div><div class="card-links"><a href="https://github.com/davidepassariello/python-mysql-2fa-demo" target="_blank" rel="noopener noreferrer">View repository <span aria-hidden="true">↗</span></a></div></div>
+        </article>
+        <article class="project-card" data-categories="web interactive" id="eliza">
+          <div class="project-visual visual-eliza"><img src="assets/eliza-computer.jpg" alt="Historical IBM computer console used as an illustration of the ELIZA story" loading="lazy"><span class="eliza-overlay"><small>1966 / HUMAN–MACHINE DIALOGUE</small><strong>I SILENZI<br>DI ELIZA</strong></span><span class="visual-index">04 / DIGITAL STORYTELLING</span></div>
+          <div class="project-body"><div class="project-meta"><span>COLLABORATIVE PROJECT</span><span>LIVE WEBSITE</span></div><h3>The Silences of ELIZA</h3><p>An immersive, vertically scrolling story about one of the earliest chatbots and the tendency to attribute human understanding to machines.</p><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><div class="card-links"><a href="https://davidepassariello.github.io/eliza-digital-storytelling/" target="_blank" rel="noopener noreferrer">Explore live site <span aria-hidden="true">↗</span></a><a class="sub-link" href="https://github.com/davidepassariello/eliza-digital-storytelling" target="_blank" rel="noopener noreferrer">Source code ↗</a></div></div>
+        </article>
+        <article class="project-card project-feature" data-categories="interactive" id="unity"><div class="project-visual visual-unity"><img src="assets/unity-floating-book.jpg" alt="Low-poly alchemist's workshop with a floating glowing book and magical lighting" loading="lazy"><span class="visual-index">05 / INTERACTIVE 3D</span></div><div class="project-body"><div class="project-meta"><span>UNITY COURSE PROJECT</span><span>GAZE INTERACTION</span></div><h3>The Alchemist's Lair</h3><p>A desktop 3D exploration experience in which observing objects triggers lighting, movement, particles and sound. Built with Unity and custom C# raycasting scripts.</p><div class="tags"><span>Unity</span><span>C#</span><span>Raycasting</span><span>URP</span></div><div class="card-links"><a href="https://github.com/davidepassariello/alchemists-lair-unity" target="_blank" rel="noopener noreferrer">View repository &amp; video <span aria-hidden="true">↗</span></a><a class="sub-link" href="https://davide-deathgun.itch.io/lantro-dellalchimista" target="_blank" rel="noopener noreferrer">itch.io page ↗</a></div></div></article>
+      </div>
+      <p class="project-note">Selected academic and educational projects. Some repositories contain demonstrations or selected source code rather than a deployable production application.</p>
+    </section>
+
+    <section class="skills-section" id="skills"><div class="wrap skills-grid"><div><div class="section-kicker">03 / TOOLKIT</div><h2>Tools I work with<span class="period">.</span></h2><p>Hands-on experience developed through coursework, prototypes and independent practice.</p></div><div class="skill-list"><div><h3>Programming &amp; web</h3><p>Python · Flask · HTML · CSS · JavaScript · C# · SQL</p></div><div><h3>Data &amp; AI</h3><p>Pandas · Scikit-learn · Machine Learning · Generative AI / LLMs · QGIS</p></div><div><h3>Interaction &amp; design</h3><p>Unity · Interactive storytelling · Figma Make · Digital Humanities</p></div><div><h3>Security fundamentals</h3><p>Multi-factor authentication · Security awareness · Authentication flows</p></div></div></div></section>
+
+    <section class="next-section wrap"><div class="next-label">WHAT'S NEXT</div><div><h2>Always building something new.</h2><p>I'm currently developing an experimental master's thesis project on cybersecurity awareness through scenario-based simulation. I'll add it here once there is a demonstrable version to share.</p></div><span class="next-arrow" aria-hidden="true">↗</span></section>
+
+    <section class="contact-section" id="contact"><div class="wrap contact-grid"><div><div class="section-kicker">04 / CONTACT</div><h2>Let's connect<span class="period">.</span></h2><p>Interested in collaborations, junior opportunities and projects that connect technology with meaningful human contexts.</p></div><div class="contact-links"><a href="mailto:davide.passariello@outlook.com">Email <span>↗</span></a><a href="https://www.linkedin.com/in/davidepassariello" target="_blank" rel="noopener noreferrer">LinkedIn <span>↗</span></a><a href="https://github.com/davidepassariello" target="_blank" rel="noopener noreferrer">GitHub <span>↗</span></a></div></div></section>
+  </main>
+  <footer class="footer"><div class="wrap footer-inner"><span>© <span id="year">2026</span> Davide Passariello</span><span>Built with HTML, CSS &amp; JavaScript · Hosted on GitHub Pages</span><a href="#top">Back to top ↑</a></div></footer>
+</body>
+</html>
