@@ -1,4 +1,4 @@
-# Davide Passariello — Personal Portfolio
+# Davide Passariello - Personal Portfolio
 
 Source code for [davidepassariello.github.io](https://davidepassariello.github.io/), a single-page portfolio featuring academic projects in Digital Humanities, Python, cybersecurity, machine learning, web development, and interactive 3D.
 
